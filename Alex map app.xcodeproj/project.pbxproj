@@ -16,6 +16,10 @@
 		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
 		F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; };
 		F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */; };
+		F6ED00E81F3F5ED000377D62 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; };
+		F6ED00E91F3F5ED000377D62 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00EC1F3F70D700377D62 /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F6ED00E91F3F5ED000377D62 /* RxSwift.framework in Embed Frameworks */,
 				F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -73,6 +78,9 @@
 		F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5C41F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6ED00E11F3F59EB00377D62 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F6ED00E71F3F5ED000377D62 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		F6ED00EC1F3F70D700377D62 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 			files = (
 				8DC67305DC6A88AA0741058A /* Pods_Alex_map_app.framework in Frameworks */,
 				F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */,
+				F6ED00E81F3F5ED000377D62 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +142,7 @@
 		F634D5961F3F24BC00323405 = {
 			isa = PBXGroup;
 			children = (
+				F6ED00E71F3F5ED000377D62 /* RxSwift.framework */,
 				F6ED00E11F3F59EB00377D62 /* SnapKit.framework */,
 				F634D5A11F3F24BC00323405 /* Alex map app */,
 				F634D5B61F3F24BC00323405 /* Alex map appTests */,
@@ -161,6 +171,8 @@
 				F634D5A91F3F24BC00323405 /* Assets.xcassets */,
 				F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */,
 				F634D5AE1F3F24BC00323405 /* Info.plist */,
+				F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */,
+				F6ED00EC1F3F70D700377D62 /* Error.swift */,
 			);
 			path = "Alex map app";
 			sourceTree = "<group>";
@@ -264,6 +276,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = MDX989Y6D8;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					F634D5B21F3F24BC00323405 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -519,8 +536,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */,
 				F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */,
 				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
+				F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,6 @@ import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow? = UIWindow()
 
     func application(
