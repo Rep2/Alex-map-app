@@ -51,9 +51,9 @@ class LocationManager: NSObject {
     }
 
     func startReceivingLocationChanges() -> Observable<CLLocation?> {
-        if let error = checkAutorizationStatus() {
-            return .error(error)
-        }
+//        if let error = checkAutorizationStatus() {
+//            return .error(error)
+//        }
 
         clLocationManager.startUpdatingLocation()
 
@@ -61,9 +61,9 @@ class LocationManager: NSObject {
     }
 
     func startReceivingHeadingChanges() -> Observable<CLHeading?> {
-        if let error = checkAutorizationStatus() {
-            return .error(error)
-        }
+//        if let error = checkAutorizationStatus() {
+//            return .error(error)
+//        }
 
         clLocationManager.startUpdatingHeading()
 

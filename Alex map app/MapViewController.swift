@@ -9,6 +9,7 @@ class MapViewController: UIViewController {
         let map = MKMapView(frame: .zero)
         map.showsUserLocation = true
         map.delegate = self
+        map.isScrollEnabled = false
 
         return map
     }()
@@ -38,15 +39,9 @@ class MapViewController: UIViewController {
 
         startReceivingLocationChanges()
 
-        setupViewController()
-
         setupSubvews()
 
         startReceivingHeadingChanges()
-    }
-
-    func setupViewController() {
-        title = "Map"
     }
 
     func setupSubvews() {

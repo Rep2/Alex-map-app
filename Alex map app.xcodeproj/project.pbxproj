@@ -20,6 +20,8 @@
 		F6ED00E81F3F5ED000377D62 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; };
 		F6ED00E91F3F5ED000377D62 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00EC1F3F70D700377D62 /* Error.swift */; };
+		F6ED00EF1F3F7A6900377D62 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */; };
+		F6ED00F11F3F7D2E00377D62 /* ColourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F6ED00E71F3F5ED000377D62 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F6ED00EC1F3F70D700377D62 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,11 +172,13 @@
 			children = (
 				F634D5A21F3F24BC00323405 /* AppDelegate.swift */,
 				F634D5A41F3F24BC00323405 /* MapViewController.swift */,
+				F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */,
 				F634D5A91F3F24BC00323405 /* Assets.xcassets */,
 				F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */,
 				F634D5AE1F3F24BC00323405 /* Info.plist */,
 				F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */,
 				F6ED00EC1F3F70D700377D62 /* Error.swift */,
+				F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */,
 			);
 			path = "Alex map app";
 			sourceTree = "<group>";
@@ -536,7 +542,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ED00F11F3F7D2E00377D62 /* ColourViewController.swift in Sources */,
 				F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */,
+				F6ED00EF1F3F7A6900377D62 /* RootPageViewController.swift in Sources */,
 				F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */,
 				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
 				F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */,

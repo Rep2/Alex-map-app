@@ -12,9 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Fabric.with([Crashlytics.self])
 
-        let navigationController = UINavigationController(rootViewController:  MapViewController())
-
-        window?.rootViewController = navigationController
+        window?.rootViewController = RootPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         window?.makeKeyAndVisible()
 
         return true
