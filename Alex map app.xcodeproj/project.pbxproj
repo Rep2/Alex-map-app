@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DC67305DC6A88AA0741058A /* Pods_Alex_map_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478DBB2B224BF05CE88F3393 /* Pods_Alex_map_app.framework */; };
+		A3371F3586395477EDA2E304 /* Pods_Alex_map_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */; };
+		B7B0A91AF6BBB87EEA382359 /* Pods_Alex_map_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */; };
 		F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A21F3F24BC00323405 /* AppDelegate.swift */; };
 		F634D5A51F3F24BC00323405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* ViewController.swift */; };
 		F634D5A81F3F24BC00323405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A61F3F24BC00323405 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478DBB2B224BF05CE88F3393 /* Pods_Alex_map_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A50BD4038F1DDABD6781D66 /* Pods-Alex map appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		674ABED38E24A4D443125757 /* Pods-Alex map appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68641FFC1B0EE5AB97EA6D3C /* Pods-Alex map app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app.release.xcconfig"; sourceTree = "<group>"; };
+		84EA2CA7B11067AE584CC513 /* Pods-Alex map appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app.debug.xcconfig"; sourceTree = "<group>"; };
+		D934A788EC19D2F8D1E030DA /* Pods-Alex map appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D59F1F3F24BC00323405 /* Alex map app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex map app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5A21F3F24BC00323405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F634D5A41F3F24BC00323405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC67305DC6A88AA0741058A /* Pods_Alex_map_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B0A91AF6BBB87EEA382359 /* Pods_Alex_map_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3371F3586395477EDA2E304 /* Pods_Alex_map_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE8C4D29C20A6185A21937BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478DBB2B224BF05CE88F3393 /* Pods_Alex_map_app.framework */,
+				30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */,
+				EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8B3ECF19702384CF4CB43DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */,
+				68641FFC1B0EE5AB97EA6D3C /* Pods-Alex map app.release.xcconfig */,
+				D934A788EC19D2F8D1E030DA /* Pods-Alex map appTests.debug.xcconfig */,
+				84EA2CA7B11067AE584CC513 /* Pods-Alex map appTests.release.xcconfig */,
+				5A50BD4038F1DDABD6781D66 /* Pods-Alex map appUITests.debug.xcconfig */,
+				674ABED38E24A4D443125757 /* Pods-Alex map appUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F634D5961F3F24BC00323405 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F634D5B61F3F24BC00323405 /* Alex map appTests */,
 				F634D5C11F3F24BC00323405 /* Alex map appUITests */,
 				F634D5A01F3F24BC00323405 /* Products */,
+				E8B3ECF19702384CF4CB43DB /* Pods */,
+				BE8C4D29C20A6185A21937BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F634D5C71F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map app" */;
 			buildPhases = (
+				B2A6F1AEA8DBAE4A5EC5C7E1 /* [CP] Check Pods Manifest.lock */,
 				F634D59B1F3F24BC00323405 /* Sources */,
 				F634D59C1F3F24BC00323405 /* Frameworks */,
 				F634D59D1F3F24BC00323405 /* Resources */,
+				81BE250FBD4F457313277E9B /* [CP] Embed Pods Frameworks */,
+				00AF048600AC7AC95E54EE23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F634D5CA1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appTests" */;
 			buildPhases = (
+				2EF2BE3A48E697A9C51220D3 /* [CP] Check Pods Manifest.lock */,
 				F634D5AF1F3F24BC00323405 /* Sources */,
 				F634D5B01F3F24BC00323405 /* Frameworks */,
 				F634D5B11F3F24BC00323405 /* Resources */,
+				37B76CD81BB81C509C878A82 /* [CP] Embed Pods Frameworks */,
+				B8EF0CAE30AB6CC99115E38A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F634D5CD1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appUITests" */;
 			buildPhases = (
+				B5E0E8632C062EEDA3679AFC /* [CP] Check Pods Manifest.lock */,
 				F634D5BA1F3F24BC00323405 /* Sources */,
 				F634D5BB1F3F24BC00323405 /* Frameworks */,
 				F634D5BC1F3F24BC00323405 /* Resources */,
+				98564B55A48C62C457E16C6A /* [CP] Embed Pods Frameworks */,
+				24E100455BF4AFF9C8808CD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00AF048600AC7AC95E54EE23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24E100455BF4AFF9C8808CD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF2BE3A48E697A9C51220D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37B76CD81BB81C509C878A82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BE250FBD4F457313277E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98564B55A48C62C457E16C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A6F1AEA8DBAE4A5EC5C7E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E0E8632C062EEDA3679AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EF0CAE30AB6CC99115E38A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F634D59B1F3F24BC00323405 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		F634D5C81F3F24BC00323405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
@@ -426,6 +614,7 @@
 		};
 		F634D5C91F3F24BC00323405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68641FFC1B0EE5AB97EA6D3C /* Pods-Alex map app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
@@ -439,6 +628,7 @@
 		};
 		F634D5CB1F3F24BC00323405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D934A788EC19D2F8D1E030DA /* Pods-Alex map appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		F634D5CC1F3F24BC00323405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EA2CA7B11067AE584CC513 /* Pods-Alex map appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		F634D5CE1F3F24BC00323405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A50BD4038F1DDABD6781D66 /* Pods-Alex map appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
@@ -483,6 +675,7 @@
 		};
 		F634D5CF1F3F24BC00323405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674ABED38E24A4D443125757 /* Pods-Alex map appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
