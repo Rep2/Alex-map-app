@@ -11,12 +11,9 @@
 		A3371F3586395477EDA2E304 /* Pods_Alex_map_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */; };
 		B7B0A91AF6BBB87EEA382359 /* Pods_Alex_map_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */; };
 		F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A21F3F24BC00323405 /* AppDelegate.swift */; };
-		F634D5A51F3F24BC00323405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* ViewController.swift */; };
-		F634D5A81F3F24BC00323405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A61F3F24BC00323405 /* Main.storyboard */; };
+		F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* MapViewController.swift */; };
 		F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A91F3F24BC00323405 /* Assets.xcassets */; };
 		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
-		F634D5B81F3F24BC00323405 /* Alex_map_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */; };
-		F634D5C31F3F24BC00323405 /* Alex_map_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +45,13 @@
 		EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D59F1F3F24BC00323405 /* Alex map app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex map app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5A21F3F24BC00323405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F634D5A41F3F24BC00323405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F634D5A71F3F24BC00323405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F634D5A41F3F24BC00323405 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F634D5A91F3F24BC00323405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F634D5AC1F3F24BC00323405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F634D5AE1F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F634D5B31F3F24BC00323405 /* Alex map appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alex_map_appTests.swift; sourceTree = "<group>"; };
 		F634D5B91F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alex_map_appUITests.swift; sourceTree = "<group>"; };
 		F634D5C41F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,8 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				F634D5A21F3F24BC00323405 /* AppDelegate.swift */,
-				F634D5A41F3F24BC00323405 /* ViewController.swift */,
-				F634D5A61F3F24BC00323405 /* Main.storyboard */,
+				F634D5A41F3F24BC00323405 /* MapViewController.swift */,
 				F634D5A91F3F24BC00323405 /* Assets.xcassets */,
 				F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */,
 				F634D5AE1F3F24BC00323405 /* Info.plist */,
@@ -150,7 +143,6 @@
 		F634D5B61F3F24BC00323405 /* Alex map appTests */ = {
 			isa = PBXGroup;
 			children = (
-				F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */,
 				F634D5B91F3F24BC00323405 /* Info.plist */,
 			);
 			path = "Alex map appTests";
@@ -159,7 +151,6 @@
 		F634D5C11F3F24BC00323405 /* Alex map appUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */,
 				F634D5C41F3F24BC00323405 /* Info.plist */,
 			);
 			path = "Alex map appUITests";
@@ -178,6 +169,8 @@
 				F634D59D1F3F24BC00323405 /* Resources */,
 				81BE250FBD4F457313277E9B /* [CP] Embed Pods Frameworks */,
 				00AF048600AC7AC95E54EE23 /* [CP] Copy Pods Resources */,
+				F634D5D01F3F25B600323405 /* Swiftlint */,
+				F634D5D11F3F25C000323405 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -286,7 +279,6 @@
 			files = (
 				F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */,
 				F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */,
-				F634D5A81F3F24BC00323405 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +434,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F634D5D01F3F25B600323405 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		F634D5D11F3F25C000323405 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 002d1e80e7bf3a300de583f69a92347342fc38a9 e3df1c13235f9dab0dc7accc866329608184f2134ce261febd9bf33b9940b592";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -449,7 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F634D5A51F3F24BC00323405 /* ViewController.swift in Sources */,
+				F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */,
 				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +478,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F634D5B81F3F24BC00323405 /* Alex_map_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +485,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F634D5C31F3F24BC00323405 /* Alex_map_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,14 +504,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F634D5A61F3F24BC00323405 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F634D5A71F3F24BC00323405 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -603,6 +613,7 @@
 			baseConfigurationReference = AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -707,6 +718,7 @@
 				F634D5C91F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F634D5CA1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +727,7 @@
 				F634D5CC1F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F634D5CD1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +736,7 @@
 				F634D5CF1F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
