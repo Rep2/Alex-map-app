@@ -14,6 +14,8 @@
 		F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* MapViewController.swift */; };
 		F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A91F3F24BC00323405 /* Assets.xcassets */; };
 		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
+		F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; };
+		F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,20 @@
 			remoteInfo = "Alex map app";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6ED00E41F3F59EB00377D62 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +72,7 @@
 		F634D5B91F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5C41F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6ED00E11F3F59EB00377D62 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC67305DC6A88AA0741058A /* Pods_Alex_map_app.framework in Frameworks */,
+				F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +133,7 @@
 		F634D5961F3F24BC00323405 = {
 			isa = PBXGroup;
 			children = (
+				F6ED00E11F3F59EB00377D62 /* SnapKit.framework */,
 				F634D5A11F3F24BC00323405 /* Alex map app */,
 				F634D5B61F3F24BC00323405 /* Alex map appTests */,
 				F634D5C11F3F24BC00323405 /* Alex map appUITests */,
@@ -177,6 +196,8 @@
 				00AF048600AC7AC95E54EE23 /* [CP] Copy Pods Resources */,
 				F634D5D01F3F25B600323405 /* Swiftlint */,
 				F634D5D11F3F25C000323405 /* Crashlytics */,
+				F6ED00E01F3F59D100377D62 /* Carthage */,
+				F6ED00E41F3F59EB00377D62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,6 +498,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 002d1e80e7bf3a300de583f69a92347342fc38a9 e3df1c13235f9dab0dc7accc866329608184f2134ce261febd9bf33b9940b592";
 		};
+		F6ED00E01F3F59D100377D62 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -631,6 +666,10 @@
 				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
@@ -649,6 +688,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
@@ -780,6 +823,10 @@
 				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app.alpha";

@@ -1,5 +1,6 @@
 import UIKit
 import MapKit
+import SnapKit
 
 class MapViewController: UIViewController {
 
@@ -24,6 +25,10 @@ class MapViewController: UIViewController {
     }
 
     func setupSubvews() {
-        
+        view.addSubview(mapView)
+
+        mapView.snp.makeConstraints { make in
+            make.edges.equalTo(self.view)
+        }
     }
 }
