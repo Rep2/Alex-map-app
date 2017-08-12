@@ -7,88 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F0D7B671E47C754CA4CEAFF92FA2487 /* Pods-Alex map appUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF58CCB3CD67AD8B6F7BFEF27EFD94 /* Pods-Alex map appUITests-dummy.m */; };
-		2A496A54043B1746B0E3D559FF03AA25 /* Pods-Alex map appUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 118EC60EA858F2001A076EA8ECEF6A2F /* Pods-Alex map appUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		333CF78EFC7FC55E8E15743D8D7D67A4 /* Pods-Alex map appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E282024CC397D1A0D6599E2CB71F15 /* Pods-Alex map appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FD5FA06A9EEF742EF87F7CB6F4664E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		54608414CE25D3B9713B728451FB7888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6C486AED92B84F6E5A4E15284014E3E9 /* Pods-Alex map app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC992877C38DD15846B4961DA49448A /* Pods-Alex map app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A16E0E2911D0942C98DAAEEC4B9EC9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B6C95B1E1AD9D6E4D26C2C6EBAF6E513 /* Pods-Alex map appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A57B09B552AB061879311D106CC55B /* Pods-Alex map appTests-dummy.m */; };
-		F57F708F5495EC477A716259D390C0C3 /* Pods-Alex map app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E9EEC9BACC043EA1A392DEBB484C3 /* Pods-Alex map app-dummy.m */; };
+		05A8565C2AF651EA1303545EA70F0912 /* Pods-Alex map app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24384BC3943A75FEEF92ED4F04C664 /* Pods-Alex map app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091CBEAC5F474652558DD9E05501CC63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		378A4A648AB790F398FA9AC4CB228D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9188BDC8C22B89D5CF8F4EFAA7D16A39 /* Pods-Alex map appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3AE8F293077217AD50F239203345F2 /* Pods-Alex map appTests-dummy.m */; };
+		B897DF4F91DC049180189531CB6EF9D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D1A604DA4C0C5EA9B5A1DC32822D2134 /* Pods-Alex map appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBEABD992C1EE57BFEF11EF38EB55A1 /* Pods-Alex map appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96F4500CD41A5B166501F19A6D78136 /* Pods-Alex map appUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E50672E4E462A9CBDB2305BA727B3FF /* Pods-Alex map appUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8A12856C7217320E540889866618DB /* Pods-Alex map appUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7C90B6D52DEBFDD2D7F934076AA79 /* Pods-Alex map appUITests-dummy.m */; };
+		F9186415FC0C8C10DF9005D08E392A3C /* Pods-Alex map app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CE1DB880AF996C9CB5036F286A9D88 /* Pods-Alex map app-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A64B4FBB19BB813DEC0C3EDDFF2C05F /* Pods-Alex map appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A6A84295FAC76BE0E91F1DF91845608 /* Pods-Alex map appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map appTests.modulemap"; sourceTree = "<group>"; };
+		00038D4CB8F8949D4E33D5D335E1602E /* Pods-Alex map appUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map appUITests.modulemap"; sourceTree = "<group>"; };
+		0D84D4A641286CED56A4A5E2C0AD4203 /* Pods-Alex map appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map appTests.modulemap"; sourceTree = "<group>"; };
+		0DD4F5A21031435069AAF8CF70BE2BD3 /* Pods-Alex map appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E920FC5C9344D258FE14D2949CAA684 /* Pods_Alex_map_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alex_map_appTests.framework; path = "Pods-Alex map appTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		118EC60EA858F2001A076EA8ECEF6A2F /* Pods-Alex map appUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map appUITests-umbrella.h"; sourceTree = "<group>"; };
-		15AB874CA08C59F28B0D9CB9B2BECC2F /* Pods-Alex map app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map app-frameworks.sh"; sourceTree = "<group>"; };
 		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		21051E06992D0C0FE7988A4362CF6F3D /* Pods-Alex map app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map app.modulemap"; sourceTree = "<group>"; };
+		22FE64A9B5C1D95155CD16B997CE6530 /* Pods-Alex map app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map app-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		3F0BC891852C49D377BE4989A4A3AACF /* Pods-Alex map app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map app.debug.xcconfig"; sourceTree = "<group>"; };
-		41012FC689E368F3A1CE6E08E247F93F /* Pods-Alex map appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A7A522923385E5416418F92464AB30B /* Pods-Alex map app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map app.modulemap"; sourceTree = "<group>"; };
+		3F6F8CD3A114290EBC7999B5F10903C8 /* Pods-Alex map appTests.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appTests.alpha.xcconfig"; sourceTree = "<group>"; };
+		416A91EB037E85F6DE966D291BA7415D /* Pods-Alex map appUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appUITests-frameworks.sh"; sourceTree = "<group>"; };
+		43F7C90B6D52DEBFDD2D7F934076AA79 /* Pods-Alex map appUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map appUITests-dummy.m"; sourceTree = "<group>"; };
+		448B73FF68E1F72441B22EE7582D7360 /* Pods-Alex map appUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map appUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
-		4FC992877C38DD15846B4961DA49448A /* Pods-Alex map app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map app-umbrella.h"; sourceTree = "<group>"; };
-		5AF873FC0720FE0FEF06C47C2680169D /* Pods-Alex map appTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map appTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F3AE8F293077217AD50F239203345F2 /* Pods-Alex map appTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map appTests-dummy.m"; sourceTree = "<group>"; };
 		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		5B344D120E1078781E892CB237FADF64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D53E39D5C6C4F63366A4A3DCD0F41DD /* Pods-Alex map appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64DE413C4E34A41163C409B744928770 /* Pods-Alex map app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map app.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		70FD019D679C5137800A0C30CE2D7388 /* Pods-Alex map appUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alex map appUITests.modulemap"; sourceTree = "<group>"; };
-		7E211433F0A13224BC5A7BECE0044D24 /* Pods-Alex map appUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appUITests-frameworks.sh"; sourceTree = "<group>"; };
+		67CE1DB880AF996C9CB5036F286A9D88 /* Pods-Alex map app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map app-dummy.m"; sourceTree = "<group>"; };
+		78ED3B2FEE0417C933DDADDE0B2B5F48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E50672E4E462A9CBDB2305BA727B3FF /* Pods-Alex map appUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map appUITests-umbrella.h"; sourceTree = "<group>"; };
+		80FA59509538E8CD8FD6049EEBB6E66A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		84D7A25F57D1213334892F8BC9FDE2EB /* Pods_Alex_map_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alex_map_app.framework; path = "Pods-Alex map app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
-		878768B8ED81E2079C64D9EF09A83D6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A511A657EE9D6ED5914BFCEFB6060B3 /* Pods-Alex map appTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appTests-frameworks.sh"; sourceTree = "<group>"; };
+		86438A392068A0798968705AA054E299 /* Pods-Alex map app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map app-resources.sh"; sourceTree = "<group>"; };
+		8A13BF0239E5075F3D4F8F8E32385729 /* Pods-Alex map appTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map appTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D3D42F190DEFB209379BDD801FA19A2 /* Pods-Alex map appUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appUITests-resources.sh"; sourceTree = "<group>"; };
 		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		8F0FEA10266436BF8ACE546B360FAEAC /* Pods-Alex map appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A93165F8F50F7DE418F4FAEA9EA8B79 /* Pods-Alex map app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map app.release.xcconfig"; sourceTree = "<group>"; };
-		A230BBAC6E06AB19BCADE52FA304A983 /* Pods-Alex map app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		999F407F50E6765853F4F6C46660B2F1 /* Pods-Alex map app.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map app.alpha.xcconfig"; sourceTree = "<group>"; };
+		99F9B5F3C03CC4480A89911590216979 /* Pods-Alex map appUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map appUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		A8DF6DE6AD7CB9F86F78DDF1D3AF34EA /* Pods-Alex map appTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appTests-resources.sh"; sourceTree = "<group>"; };
-		B6E9B64996F3A76CDFCDE98476CEA341 /* Pods-Alex map appUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map appUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B95E8FCD8B78C62F1222F77A0B962F2B /* Pods-Alex map appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map appTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CBF1FAC0BC181441FF39AFA84F0EEB00 /* Pods-Alex map app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map app-resources.sh"; sourceTree = "<group>"; };
-		CC3E9EEC9BACC043EA1A392DEBB484C3 /* Pods-Alex map app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map app-dummy.m"; sourceTree = "<group>"; };
-		D56113406DC0B403FDBF7DF13078E31B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80CDE767827BBA396BA3033F6D54C8E /* Pods-Alex map appTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appTests-resources.sh"; sourceTree = "<group>"; };
+		B83CF40F8F6803B376C1CC19947AFF17 /* Pods-Alex map appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBBEABD992C1EE57BFEF11EF38EB55A1 /* Pods-Alex map appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map appTests-umbrella.h"; sourceTree = "<group>"; };
+		C10B30D00B29361DC91DB9D9C9C57382 /* Pods-Alex map appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C456142CD2B440E7E1BB1B198FD9523E /* Pods-Alex map app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map app-frameworks.sh"; sourceTree = "<group>"; };
+		D3F7A3E06EEF50E5D2593F3230AF1EA1 /* Pods-Alex map appTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appTests-frameworks.sh"; sourceTree = "<group>"; };
+		D6CED4D26F887326A82F5542988D8D89 /* Pods-Alex map appUITests.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appUITests.alpha.xcconfig"; sourceTree = "<group>"; };
+		DB863287AB12E3ADE4FC3B5165A0244E /* Pods-Alex map app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map app-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		E1C6E8BA30826620EE465F2122CA47E3 /* Pods-Alex map appUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alex map appUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E27B5F5FC338987CCE94E1C9FA8F5FDC /* Pods_Alex_map_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alex_map_appUITests.framework; path = "Pods-Alex map appUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		F1FB1684932AAE41D39E44219204E700 /* Pods-Alex map appUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alex map appUITests-resources.sh"; sourceTree = "<group>"; };
-		F4674536F58F74BA68D4D8ADF2CDB697 /* Pods-Alex map appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map appUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4886C90557184BD409A3115353AF553 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4A57B09B552AB061879311D106CC55B /* Pods-Alex map appTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map appTests-dummy.m"; sourceTree = "<group>"; };
-		F4AF58CCB3CD67AD8B6F7BFEF27EFD94 /* Pods-Alex map appUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alex map appUITests-dummy.m"; sourceTree = "<group>"; };
-		F9E282024CC397D1A0D6599E2CB71F15 /* Pods-Alex map appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map appTests-umbrella.h"; sourceTree = "<group>"; };
-		FAB023D3794DE553AED8B47CDFFF436F /* Pods-Alex map app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map app-acknowledgements.plist"; sourceTree = "<group>"; };
+		EACFD4D4516CD4203886C71FD24BB398 /* Pods-Alex map appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alex map appTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED9B47D710FC9B3BA30B74F0C1B59F21 /* Pods-Alex map app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alex map app.debug.xcconfig"; sourceTree = "<group>"; };
+		FA24384BC3943A75FEEF92ED4F04C664 /* Pods-Alex map app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alex map app-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1776418BD2083B298937506F4C38DA6 /* Frameworks */ = {
+		17B37C9CCA97B0FB55833358AF1A1570 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54608414CE25D3B9713B728451FB7888 /* Foundation.framework in Frameworks */,
+				378A4A648AB790F398FA9AC4CB228D4F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D166F8E0BFB97115E72EAF19565DB777 /* Frameworks */ = {
+		190227661A35BBC96A695139096441CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16E0E2911D0942C98DAAEEC4B9EC9F8 /* Foundation.framework in Frameworks */,
+				091CBEAC5F474652558DD9E05501CC63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE4E79778722EF7772E364B165314BD8 /* Frameworks */ = {
+		79C364D782B77D9EB6E617642F9C2F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD5FA06A9EEF742EF87F7CB6F4664E1 /* Foundation.framework in Frameworks */,
+				B897DF4F91DC049180189531CB6EF9D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +131,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		363769F61652F768CAFA8FB976DBE9F3 /* Pods-Alex map appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80FA59509538E8CD8FD6049EEBB6E66A /* Info.plist */,
+				00038D4CB8F8949D4E33D5D335E1602E /* Pods-Alex map appUITests.modulemap */,
+				448B73FF68E1F72441B22EE7582D7360 /* Pods-Alex map appUITests-acknowledgements.markdown */,
+				99F9B5F3C03CC4480A89911590216979 /* Pods-Alex map appUITests-acknowledgements.plist */,
+				43F7C90B6D52DEBFDD2D7F934076AA79 /* Pods-Alex map appUITests-dummy.m */,
+				416A91EB037E85F6DE966D291BA7415D /* Pods-Alex map appUITests-frameworks.sh */,
+				8D3D42F190DEFB209379BDD801FA19A2 /* Pods-Alex map appUITests-resources.sh */,
+				7E50672E4E462A9CBDB2305BA727B3FF /* Pods-Alex map appUITests-umbrella.h */,
+				D6CED4D26F887326A82F5542988D8D89 /* Pods-Alex map appUITests.alpha.xcconfig */,
+				C10B30D00B29361DC91DB9D9C9C57382 /* Pods-Alex map appUITests.debug.xcconfig */,
+				5D53E39D5C6C4F63366A4A3DCD0F41DD /* Pods-Alex map appUITests.release.xcconfig */,
+			);
+			name = "Pods-Alex map appUITests";
+			path = "Target Support Files/Pods-Alex map appUITests";
+			sourceTree = "<group>";
+		};
 		46FAAE4B75265F4EF4B2B2C92C7ECC6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,24 +160,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C374D9CE8466B4674454375B104982B /* Pods-Alex map app */ = {
-			isa = PBXGroup;
-			children = (
-				878768B8ED81E2079C64D9EF09A83D6F /* Info.plist */,
-				21051E06992D0C0FE7988A4362CF6F3D /* Pods-Alex map app.modulemap */,
-				A230BBAC6E06AB19BCADE52FA304A983 /* Pods-Alex map app-acknowledgements.markdown */,
-				FAB023D3794DE553AED8B47CDFFF436F /* Pods-Alex map app-acknowledgements.plist */,
-				CC3E9EEC9BACC043EA1A392DEBB484C3 /* Pods-Alex map app-dummy.m */,
-				15AB874CA08C59F28B0D9CB9B2BECC2F /* Pods-Alex map app-frameworks.sh */,
-				CBF1FAC0BC181441FF39AFA84F0EEB00 /* Pods-Alex map app-resources.sh */,
-				4FC992877C38DD15846B4961DA49448A /* Pods-Alex map app-umbrella.h */,
-				3F0BC891852C49D377BE4989A4A3AACF /* Pods-Alex map app.debug.xcconfig */,
-				9A93165F8F50F7DE418F4FAEA9EA8B79 /* Pods-Alex map app.release.xcconfig */,
-			);
-			name = "Pods-Alex map app";
-			path = "Target Support Files/Pods-Alex map app";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -163,54 +167,8 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1DECF7299F0875E9BCB9492390207331 /* Pods */,
 				46FAAE4B75265F4EF4B2B2C92C7ECC6D /* Products */,
-				9060F0A7D269057B68CD544FE14E6EF5 /* Targets Support Files */,
+				D8E158F618118E4381FD05B6A5FF9DA3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9060F0A7D269057B68CD544FE14E6EF5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C374D9CE8466B4674454375B104982B /* Pods-Alex map app */,
-				B463E5A5879FAC3C344F2F53E21BE6CD /* Pods-Alex map appTests */,
-				9A86BA28AD5E36C76C2A686E065C648C /* Pods-Alex map appUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9A86BA28AD5E36C76C2A686E065C648C /* Pods-Alex map appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D56113406DC0B403FDBF7DF13078E31B /* Info.plist */,
-				70FD019D679C5137800A0C30CE2D7388 /* Pods-Alex map appUITests.modulemap */,
-				E1C6E8BA30826620EE465F2122CA47E3 /* Pods-Alex map appUITests-acknowledgements.markdown */,
-				B6E9B64996F3A76CDFCDE98476CEA341 /* Pods-Alex map appUITests-acknowledgements.plist */,
-				F4AF58CCB3CD67AD8B6F7BFEF27EFD94 /* Pods-Alex map appUITests-dummy.m */,
-				7E211433F0A13224BC5A7BECE0044D24 /* Pods-Alex map appUITests-frameworks.sh */,
-				F1FB1684932AAE41D39E44219204E700 /* Pods-Alex map appUITests-resources.sh */,
-				118EC60EA858F2001A076EA8ECEF6A2F /* Pods-Alex map appUITests-umbrella.h */,
-				F4674536F58F74BA68D4D8ADF2CDB697 /* Pods-Alex map appUITests.debug.xcconfig */,
-				8F0FEA10266436BF8ACE546B360FAEAC /* Pods-Alex map appUITests.release.xcconfig */,
-			);
-			name = "Pods-Alex map appUITests";
-			path = "Target Support Files/Pods-Alex map appUITests";
-			sourceTree = "<group>";
-		};
-		B463E5A5879FAC3C344F2F53E21BE6CD /* Pods-Alex map appTests */ = {
-			isa = PBXGroup;
-			children = (
-				F4886C90557184BD409A3115353AF553 /* Info.plist */,
-				0A6A84295FAC76BE0E91F1DF91845608 /* Pods-Alex map appTests.modulemap */,
-				5AF873FC0720FE0FEF06C47C2680169D /* Pods-Alex map appTests-acknowledgements.markdown */,
-				B95E8FCD8B78C62F1222F77A0B962F2B /* Pods-Alex map appTests-acknowledgements.plist */,
-				F4A57B09B552AB061879311D106CC55B /* Pods-Alex map appTests-dummy.m */,
-				8A511A657EE9D6ED5914BFCEFB6060B3 /* Pods-Alex map appTests-frameworks.sh */,
-				A8DF6DE6AD7CB9F86F78DDF1D3AF34EA /* Pods-Alex map appTests-resources.sh */,
-				F9E282024CC397D1A0D6599E2CB71F15 /* Pods-Alex map appTests-umbrella.h */,
-				0A64B4FBB19BB813DEC0C3EDDFF2C05F /* Pods-Alex map appTests.debug.xcconfig */,
-				41012FC689E368F3A1CE6E08E247F93F /* Pods-Alex map appTests.release.xcconfig */,
-			);
-			name = "Pods-Alex map appTests";
-			path = "Target Support Files/Pods-Alex map appTests";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -240,6 +198,35 @@
 			path = Fabric;
 			sourceTree = "<group>";
 		};
+		D66057DA750C52F6AF20859EB2D4160E /* Pods-Alex map appTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B344D120E1078781E892CB237FADF64 /* Info.plist */,
+				0D84D4A641286CED56A4A5E2C0AD4203 /* Pods-Alex map appTests.modulemap */,
+				8A13BF0239E5075F3D4F8F8E32385729 /* Pods-Alex map appTests-acknowledgements.markdown */,
+				EACFD4D4516CD4203886C71FD24BB398 /* Pods-Alex map appTests-acknowledgements.plist */,
+				4F3AE8F293077217AD50F239203345F2 /* Pods-Alex map appTests-dummy.m */,
+				D3F7A3E06EEF50E5D2593F3230AF1EA1 /* Pods-Alex map appTests-frameworks.sh */,
+				A80CDE767827BBA396BA3033F6D54C8E /* Pods-Alex map appTests-resources.sh */,
+				BBBEABD992C1EE57BFEF11EF38EB55A1 /* Pods-Alex map appTests-umbrella.h */,
+				3F6F8CD3A114290EBC7999B5F10903C8 /* Pods-Alex map appTests.alpha.xcconfig */,
+				0DD4F5A21031435069AAF8CF70BE2BD3 /* Pods-Alex map appTests.debug.xcconfig */,
+				B83CF40F8F6803B376C1CC19947AFF17 /* Pods-Alex map appTests.release.xcconfig */,
+			);
+			name = "Pods-Alex map appTests";
+			path = "Target Support Files/Pods-Alex map appTests";
+			sourceTree = "<group>";
+		};
+		D8E158F618118E4381FD05B6A5FF9DA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA8BBD904C1232922B343509EA6F61E /* Pods-Alex map app */,
+				D66057DA750C52F6AF20859EB2D4160E /* Pods-Alex map appTests */,
+				363769F61652F768CAFA8FB976DBE9F3 /* Pods-Alex map appUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		E268B07786115FF5D5DFF396150E695F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,43 +235,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EAA8BBD904C1232922B343509EA6F61E /* Pods-Alex map app */ = {
+			isa = PBXGroup;
+			children = (
+				78ED3B2FEE0417C933DDADDE0B2B5F48 /* Info.plist */,
+				3A7A522923385E5416418F92464AB30B /* Pods-Alex map app.modulemap */,
+				22FE64A9B5C1D95155CD16B997CE6530 /* Pods-Alex map app-acknowledgements.markdown */,
+				DB863287AB12E3ADE4FC3B5165A0244E /* Pods-Alex map app-acknowledgements.plist */,
+				67CE1DB880AF996C9CB5036F286A9D88 /* Pods-Alex map app-dummy.m */,
+				C456142CD2B440E7E1BB1B198FD9523E /* Pods-Alex map app-frameworks.sh */,
+				86438A392068A0798968705AA054E299 /* Pods-Alex map app-resources.sh */,
+				FA24384BC3943A75FEEF92ED4F04C664 /* Pods-Alex map app-umbrella.h */,
+				999F407F50E6765853F4F6C46660B2F1 /* Pods-Alex map app.alpha.xcconfig */,
+				ED9B47D710FC9B3BA30B74F0C1B59F21 /* Pods-Alex map app.debug.xcconfig */,
+				64DE413C4E34A41163C409B744928770 /* Pods-Alex map app.release.xcconfig */,
+			);
+			name = "Pods-Alex map app";
+			path = "Target Support Files/Pods-Alex map app";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7AF80EA0F132279F60EAC326A1E8E3D0 /* Headers */ = {
+		2FD3A17443F1AE9532706EE490D9AD34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C486AED92B84F6E5A4E15284014E3E9 /* Pods-Alex map app-umbrella.h in Headers */,
+				D1A604DA4C0C5EA9B5A1DC32822D2134 /* Pods-Alex map appTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C092F7375E5BD48EC06D3FAF35D9DC6 /* Headers */ = {
+		8D9B1B3AFC6ABD974133D1BAF11B91EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333CF78EFC7FC55E8E15743D8D7D67A4 /* Pods-Alex map appTests-umbrella.h in Headers */,
+				05A8565C2AF651EA1303545EA70F0912 /* Pods-Alex map app-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFC01D8B3F76259376ABE369F2DE22FC /* Headers */ = {
+		F9335AA7ED2639CE1E1F676E5A01577E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A496A54043B1746B0E3D559FF03AA25 /* Pods-Alex map appUITests-umbrella.h in Headers */,
+				D96F4500CD41A5B166501F19A6D78136 /* Pods-Alex map appUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02AFD7E09004B56EDCC6BE29DE7F11EF /* Pods-Alex map app */ = {
+		5513D0646A4A4EBEE6FE5D405355A72B /* Pods-Alex map app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A69D9D43BC1FA2D518E734DE4F2EBA9 /* Build configuration list for PBXNativeTarget "Pods-Alex map app" */;
+			buildConfigurationList = 7D01BE7C0BF53B9ABCC21AD04877B31C /* Build configuration list for PBXNativeTarget "Pods-Alex map app" */;
 			buildPhases = (
-				35A4DCD0ABD93A3B2E0E802F2B4FC920 /* Sources */,
-				FE4E79778722EF7772E364B165314BD8 /* Frameworks */,
-				7AF80EA0F132279F60EAC326A1E8E3D0 /* Headers */,
+				37255A5AFC10679D0E6A10C3E1B09E5A /* Sources */,
+				79C364D782B77D9EB6E617642F9C2F22 /* Frameworks */,
+				8D9B1B3AFC6ABD974133D1BAF11B91EC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -295,13 +301,13 @@
 			productReference = 84D7A25F57D1213334892F8BC9FDE2EB /* Pods_Alex_map_app.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5AE2C2613A11015CECDC4A8E7FFCFC6C /* Pods-Alex map appTests */ = {
+		D900ABB1305744CE4D2FA6C9D02FB9BC /* Pods-Alex map appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CFE8B8F01C73FFF0B832561EFF7715E /* Build configuration list for PBXNativeTarget "Pods-Alex map appTests" */;
+			buildConfigurationList = D54BBA83FEFFAEBB477C8EB6C8B18D28 /* Build configuration list for PBXNativeTarget "Pods-Alex map appTests" */;
 			buildPhases = (
-				5EBB8A91EFDBB036303DF792EF15B90D /* Sources */,
-				D166F8E0BFB97115E72EAF19565DB777 /* Frameworks */,
-				7C092F7375E5BD48EC06D3FAF35D9DC6 /* Headers */,
+				5F6C51E0FCA32DFAEF72D0BA90DA947C /* Sources */,
+				17B37C9CCA97B0FB55833358AF1A1570 /* Frameworks */,
+				2FD3A17443F1AE9532706EE490D9AD34 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -312,13 +318,13 @@
 			productReference = 0E920FC5C9344D258FE14D2949CAA684 /* Pods_Alex_map_appTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7AB57D305FAC7BC8DEAA430FF983C8C3 /* Pods-Alex map appUITests */ = {
+		DAD130FBA365B3AF33C81881630980DC /* Pods-Alex map appUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 927D16448BD30999E20B544291E61435 /* Build configuration list for PBXNativeTarget "Pods-Alex map appUITests" */;
+			buildConfigurationList = 0ACF2246280ADCABF1AAAE368219384D /* Build configuration list for PBXNativeTarget "Pods-Alex map appUITests" */;
 			buildPhases = (
-				3D891908D54C510CD119E832058BA120 /* Sources */,
-				A1776418BD2083B298937506F4C38DA6 /* Frameworks */,
-				EFC01D8B3F76259376ABE369F2DE22FC /* Headers */,
+				3669DA63DE2E988144D6AF709A3868FF /* Sources */,
+				190227661A35BBC96A695139096441CC /* Frameworks */,
+				F9335AA7ED2639CE1E1F676E5A01577E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -350,80 +356,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02AFD7E09004B56EDCC6BE29DE7F11EF /* Pods-Alex map app */,
-				5AE2C2613A11015CECDC4A8E7FFCFC6C /* Pods-Alex map appTests */,
-				7AB57D305FAC7BC8DEAA430FF983C8C3 /* Pods-Alex map appUITests */,
+				5513D0646A4A4EBEE6FE5D405355A72B /* Pods-Alex map app */,
+				D900ABB1305744CE4D2FA6C9D02FB9BC /* Pods-Alex map appTests */,
+				DAD130FBA365B3AF33C81881630980DC /* Pods-Alex map appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35A4DCD0ABD93A3B2E0E802F2B4FC920 /* Sources */ = {
+		3669DA63DE2E988144D6AF709A3868FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57F708F5495EC477A716259D390C0C3 /* Pods-Alex map app-dummy.m in Sources */,
+				EA8A12856C7217320E540889866618DB /* Pods-Alex map appUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D891908D54C510CD119E832058BA120 /* Sources */ = {
+		37255A5AFC10679D0E6A10C3E1B09E5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0D7B671E47C754CA4CEAFF92FA2487 /* Pods-Alex map appUITests-dummy.m in Sources */,
+				F9186415FC0C8C10DF9005D08E392A3C /* Pods-Alex map app-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EBB8A91EFDBB036303DF792EF15B90D /* Sources */ = {
+		5F6C51E0FCA32DFAEF72D0BA90DA947C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C95B1E1AD9D6E4D26C2C6EBAF6E513 /* Pods-Alex map appTests-dummy.m in Sources */,
+				9188BDC8C22B89D5CF8F4EFAA7D16A39 /* Pods-Alex map appTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2D319E86D6702813EB1FA07BF5BB8AAC /* Release */ = {
+		1DBC8F200F3B7F9EBED4CAFFDAF8B2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0FEA10266436BF8ACE546B360FAEAC /* Pods-Alex map appUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alex_map_appUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		478F4C5B047AAAE10404E1476BA6FE72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A64B4FBB19BB813DEC0C3EDDFF2C05F /* Pods-Alex map appTests.debug.xcconfig */;
+			baseConfigurationReference = ED9B47D710FC9B3BA30B74F0C1B59F21 /* Pods-Alex map app.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -437,13 +407,49 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map app/Pods-Alex map app.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_app;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23171ABDAA12D855E62D3909A66FCDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83CF40F8F6803B376C1CC19947AFF17 /* Pods-Alex map appTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -455,9 +461,81 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+		2DFA0ADB99ED1275871AC1FB80877AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DE413C4E34A41163C409B744928770 /* Pods-Alex map app.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map app/Pods-Alex map app.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_app;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FD748E7F2C61EABE931E4A331DA915C /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999F407F50E6765853F4F6C46660B2F1 /* Pods-Alex map app.alpha.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map app/Pods-Alex map app.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_app;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Alpha;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,121 +579,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6F4565C27CF22A5B6F26BFD4A147798A /* Release */ = {
+		B56FC5D9DEEECAB87ACED0C874882B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A93165F8F50F7DE418F4FAEA9EA8B79 /* Pods-Alex map app.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alex map app/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alex map app/Pods-Alex map app.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alex_map_app;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		914B852B71A18A5D288E3606A8DDBA55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F0BC891852C49D377BE4989A4A3AACF /* Pods-Alex map app.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alex map app/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alex map app/Pods-Alex map app.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alex_map_app;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A5DAF97361DD8BECB4944258EC0954AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41012FC689E368F3A1CE6E08E247F93F /* Pods-Alex map appTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Alex_map_appTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB7C358CBFD1C1FDDA93ED133ED82A38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4674536F58F74BA68D4D8ADF2CDB697 /* Pods-Alex map appUITests.debug.xcconfig */;
+			baseConfigurationReference = C10B30D00B29361DC91DB9D9C9C57382 /* Pods-Alex map appUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -693,14 +664,202 @@
 			};
 			name = Release;
 		};
+		D69A1AD6F0AEF73542A1F1F8F7D884A7 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CED4D26F887326A82F5542988D8D89 /* Pods-Alex map appUITests.alpha.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_appUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Alpha;
+		};
+		D8D1A2DC73EC4590E0D2C570D82B0B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD4F5A21031435069AAF8CF70BE2BD3 /* Pods-Alex map appTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_appTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5743E7EC3D2D26CFE0D39703238048D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D53E39D5C6C4F63366A4A3DCD0F41DD /* Pods-Alex map appUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_appUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E723A40556B928C4689ED64BDA04B68C /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6F8CD3A114290EBC7999B5F10903C8 /* Pods-Alex map appTests.alpha.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alex map appTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alex_map_appTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Alpha;
+		};
+		FB7D2D22535B2E428C9D3D17861D84DA /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_ALPHA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Alpha;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A69D9D43BC1FA2D518E734DE4F2EBA9 /* Build configuration list for PBXNativeTarget "Pods-Alex map app" */ = {
+		0ACF2246280ADCABF1AAAE368219384D /* Build configuration list for PBXNativeTarget "Pods-Alex map appUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				914B852B71A18A5D288E3606A8DDBA55 /* Debug */,
-				6F4565C27CF22A5B6F26BFD4A147798A /* Release */,
+				D69A1AD6F0AEF73542A1F1F8F7D884A7 /* Alpha */,
+				B56FC5D9DEEECAB87ACED0C874882B40 /* Debug */,
+				E5743E7EC3D2D26CFE0D39703238048D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -708,26 +867,29 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643C76AA582046977B7877822ED7A258 /* Debug */,
+				FB7D2D22535B2E428C9D3D17861D84DA /* Alpha */,
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
 				C03B8870130C98D1B02B59D003687524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CFE8B8F01C73FFF0B832561EFF7715E /* Build configuration list for PBXNativeTarget "Pods-Alex map appTests" */ = {
+		7D01BE7C0BF53B9ABCC21AD04877B31C /* Build configuration list for PBXNativeTarget "Pods-Alex map app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				478F4C5B047AAAE10404E1476BA6FE72 /* Debug */,
-				A5DAF97361DD8BECB4944258EC0954AE /* Release */,
+				2FD748E7F2C61EABE931E4A331DA915C /* Alpha */,
+				1DBC8F200F3B7F9EBED4CAFFDAF8B2CD /* Debug */,
+				2DFA0ADB99ED1275871AC1FB80877AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		927D16448BD30999E20B544291E61435 /* Build configuration list for PBXNativeTarget "Pods-Alex map appUITests" */ = {
+		D54BBA83FEFFAEBB477C8EB6C8B18D28 /* Build configuration list for PBXNativeTarget "Pods-Alex map appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB7C358CBFD1C1FDDA93ED133ED82A38 /* Debug */,
-				2D319E86D6702813EB1FA07BF5BB8AAC /* Release */,
+				E723A40556B928C4689ED64BDA04B68C /* Alpha */,
+				D8D1A2DC73EC4590E0D2C570D82B0B4A /* Debug */,
+				23171ABDAA12D855E62D3909A66FCDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -35,12 +35,15 @@
 
 /* Begin PBXFileReference section */
 		30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		441C46B5BB194AF636171973 /* Pods-Alex map app.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map app.alpha.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app.alpha.xcconfig"; sourceTree = "<group>"; };
 		478DBB2B224BF05CE88F3393 /* Pods_Alex_map_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A50BD4038F1DDABD6781D66 /* Pods-Alex map appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE00969C80F03440583AE0E /* Pods-Alex map appTests.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appTests.alpha.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.alpha.xcconfig"; sourceTree = "<group>"; };
 		674ABED38E24A4D443125757 /* Pods-Alex map appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		68641FFC1B0EE5AB97EA6D3C /* Pods-Alex map app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app.release.xcconfig"; sourceTree = "<group>"; };
 		84EA2CA7B11067AE584CC513 /* Pods-Alex map appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map app/Pods-Alex map app.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE81E2DCB02FAF1E876D9F3 /* Pods-Alex map appUITests.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appUITests.alpha.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appUITests/Pods-Alex map appUITests.alpha.xcconfig"; sourceTree = "<group>"; };
 		D934A788EC19D2F8D1E030DA /* Pods-Alex map appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alex map appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alex map appTests/Pods-Alex map appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D59F1F3F24BC00323405 /* Alex map app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex map app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,9 @@
 				84EA2CA7B11067AE584CC513 /* Pods-Alex map appTests.release.xcconfig */,
 				5A50BD4038F1DDABD6781D66 /* Pods-Alex map appUITests.debug.xcconfig */,
 				674ABED38E24A4D443125757 /* Pods-Alex map appUITests.release.xcconfig */,
+				441C46B5BB194AF636171973 /* Pods-Alex map app.alpha.xcconfig */,
+				5CE00969C80F03440583AE0E /* Pods-Alex map appTests.alpha.xcconfig */,
+				CBE81E2DCB02FAF1E876D9F3 /* Pods-Alex map appUITests.alpha.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -236,7 +242,7 @@
 					F634D59E1F3F24BC00323405 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = MDX989Y6D8;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					F634D5B21F3F24BC00323405 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -335,13 +341,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alex map appTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		37B76CD81BB81C509C878A82 /* [CP] Embed Pods Frameworks */ = {
@@ -395,13 +404,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alex map app-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5E0E8632C062EEDA3679AFC /* [CP] Check Pods Manifest.lock */ = {
@@ -410,13 +422,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alex map appUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8EF0CAE30AB6CC99115E38A /* [CP] Copy Pods Resources */ = {
@@ -539,7 +554,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -613,12 +628,15 @@
 			baseConfigurationReference = AB14860A32B002CD7F68D786 /* Pods-Alex map app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6eaa5d89-62bc-46d4-a8fb-0eda23a592ff";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rep.Alex-map-app";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -628,11 +646,15 @@
 			baseConfigurationReference = 68641FFC1B0EE5AB97EA6D3C /* Pods-Alex map app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = "Alex map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "45b6353d-a666-45eb-92d4-d14f44ebd707";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.rep.Alex-map-app";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -699,6 +721,106 @@
 			};
 			name = Release;
 		};
+		F6ED00DC1F3F273300377D62 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Alpha;
+		};
+		F6ED00DD1F3F273300377D62 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441C46B5BB194AF636171973 /* Pods-Alex map app.alpha.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 5;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app.alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17e0aa81-b74b-4006-943f-d7186ccb7ae5";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.rep.Alex-map-app.alpha";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Alpha;
+		};
+		F6ED00DE1F3F273300377D62 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE00969C80F03440583AE0E /* Pods-Alex map appTests.alpha.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex map app.app/Alex map app";
+			};
+			name = Alpha;
+		};
+		F6ED00DF1F3F273300377D62 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE81E2DCB02FAF1E876D9F3 /* Pods-Alex map appUITests.alpha.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alex map app";
+			};
+			name = Alpha;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -706,6 +828,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634D5C51F3F24BC00323405 /* Debug */,
+				F6ED00DC1F3F273300377D62 /* Alpha */,
 				F634D5C61F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -715,6 +838,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634D5C81F3F24BC00323405 /* Debug */,
+				F6ED00DD1F3F273300377D62 /* Alpha */,
 				F634D5C91F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -724,6 +848,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634D5CB1F3F24BC00323405 /* Debug */,
+				F6ED00DE1F3F273300377D62 /* Alpha */,
 				F634D5CC1F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -733,6 +858,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634D5CE1F3F24BC00323405 /* Debug */,
+				F6ED00DF1F3F273300377D62 /* Alpha */,
 				F634D5CF1F3F24BC00323405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
