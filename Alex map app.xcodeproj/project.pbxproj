@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A21F3F24BC00323405 /* AppDelegate.swift */; };
+		F634D5A51F3F24BC00323405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* ViewController.swift */; };
+		F634D5A81F3F24BC00323405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A61F3F24BC00323405 /* Main.storyboard */; };
+		F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A91F3F24BC00323405 /* Assets.xcassets */; };
+		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
+		F634D5B81F3F24BC00323405 /* Alex_map_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */; };
+		F634D5C31F3F24BC00323405 /* Alex_map_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F634D5B41F3F24BC00323405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F634D5971F3F24BC00323405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F634D59E1F3F24BC00323405;
+			remoteInfo = "Alex map app";
+		};
+		F634D5BF1F3F24BC00323405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F634D5971F3F24BC00323405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F634D59E1F3F24BC00323405;
+			remoteInfo = "Alex map app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F634D59F1F3F24BC00323405 /* Alex map app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex map app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634D5A21F3F24BC00323405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F634D5A41F3F24BC00323405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F634D5A71F3F24BC00323405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F634D5A91F3F24BC00323405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F634D5AC1F3F24BC00323405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F634D5AE1F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F634D5B31F3F24BC00323405 /* Alex map appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alex_map_appTests.swift; sourceTree = "<group>"; };
+		F634D5B91F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alex_map_appUITests.swift; sourceTree = "<group>"; };
+		F634D5C41F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F634D59C1F3F24BC00323405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5B01F3F24BC00323405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5BB1F3F24BC00323405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F634D5961F3F24BC00323405 = {
+			isa = PBXGroup;
+			children = (
+				F634D5A11F3F24BC00323405 /* Alex map app */,
+				F634D5B61F3F24BC00323405 /* Alex map appTests */,
+				F634D5C11F3F24BC00323405 /* Alex map appUITests */,
+				F634D5A01F3F24BC00323405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F634D5A01F3F24BC00323405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F634D59F1F3F24BC00323405 /* Alex map app.app */,
+				F634D5B31F3F24BC00323405 /* Alex map appTests.xctest */,
+				F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F634D5A11F3F24BC00323405 /* Alex map app */ = {
+			isa = PBXGroup;
+			children = (
+				F634D5A21F3F24BC00323405 /* AppDelegate.swift */,
+				F634D5A41F3F24BC00323405 /* ViewController.swift */,
+				F634D5A61F3F24BC00323405 /* Main.storyboard */,
+				F634D5A91F3F24BC00323405 /* Assets.xcassets */,
+				F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */,
+				F634D5AE1F3F24BC00323405 /* Info.plist */,
+			);
+			path = "Alex map app";
+			sourceTree = "<group>";
+		};
+		F634D5B61F3F24BC00323405 /* Alex map appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F634D5B71F3F24BC00323405 /* Alex_map_appTests.swift */,
+				F634D5B91F3F24BC00323405 /* Info.plist */,
+			);
+			path = "Alex map appTests";
+			sourceTree = "<group>";
+		};
+		F634D5C11F3F24BC00323405 /* Alex map appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F634D5C21F3F24BC00323405 /* Alex_map_appUITests.swift */,
+				F634D5C41F3F24BC00323405 /* Info.plist */,
+			);
+			path = "Alex map appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F634D59E1F3F24BC00323405 /* Alex map app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634D5C71F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map app" */;
+			buildPhases = (
+				F634D59B1F3F24BC00323405 /* Sources */,
+				F634D59C1F3F24BC00323405 /* Frameworks */,
+				F634D59D1F3F24BC00323405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alex map app";
+			productName = "Alex map app";
+			productReference = F634D59F1F3F24BC00323405 /* Alex map app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F634D5B21F3F24BC00323405 /* Alex map appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634D5CA1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appTests" */;
+			buildPhases = (
+				F634D5AF1F3F24BC00323405 /* Sources */,
+				F634D5B01F3F24BC00323405 /* Frameworks */,
+				F634D5B11F3F24BC00323405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F634D5B51F3F24BC00323405 /* PBXTargetDependency */,
+			);
+			name = "Alex map appTests";
+			productName = "Alex map appTests";
+			productReference = F634D5B31F3F24BC00323405 /* Alex map appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F634D5BD1F3F24BC00323405 /* Alex map appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634D5CD1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appUITests" */;
+			buildPhases = (
+				F634D5BA1F3F24BC00323405 /* Sources */,
+				F634D5BB1F3F24BC00323405 /* Frameworks */,
+				F634D5BC1F3F24BC00323405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F634D5C01F3F24BC00323405 /* PBXTargetDependency */,
+			);
+			name = "Alex map appUITests";
+			productName = "Alex map appUITests";
+			productReference = F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F634D5971F3F24BC00323405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ivan Rep";
+				TargetAttributes = {
+					F634D59E1F3F24BC00323405 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MDX989Y6D8;
+						ProvisioningStyle = Automatic;
+					};
+					F634D5B21F3F24BC00323405 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MDX989Y6D8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F634D59E1F3F24BC00323405;
+					};
+					F634D5BD1F3F24BC00323405 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MDX989Y6D8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F634D59E1F3F24BC00323405;
+					};
+				};
+			};
+			buildConfigurationList = F634D59A1F3F24BC00323405 /* Build configuration list for PBXProject "Alex map app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F634D5961F3F24BC00323405;
+			productRefGroup = F634D5A01F3F24BC00323405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F634D59E1F3F24BC00323405 /* Alex map app */,
+				F634D5B21F3F24BC00323405 /* Alex map appTests */,
+				F634D5BD1F3F24BC00323405 /* Alex map appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F634D59D1F3F24BC00323405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */,
+				F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */,
+				F634D5A81F3F24BC00323405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5B11F3F24BC00323405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5BC1F3F24BC00323405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F634D59B1F3F24BC00323405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634D5A51F3F24BC00323405 /* ViewController.swift in Sources */,
+				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5AF1F3F24BC00323405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634D5B81F3F24BC00323405 /* Alex_map_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634D5BA1F3F24BC00323405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634D5C31F3F24BC00323405 /* Alex_map_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F634D5B51F3F24BC00323405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F634D59E1F3F24BC00323405 /* Alex map app */;
+			targetProxy = F634D5B41F3F24BC00323405 /* PBXContainerItemProxy */;
+		};
+		F634D5C01F3F24BC00323405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F634D59E1F3F24BC00323405 /* Alex map app */;
+			targetProxy = F634D5BF1F3F24BC00323405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F634D5A61F3F24BC00323405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F634D5A71F3F24BC00323405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F634D5AC1F3F24BC00323405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F634D5C51F3F24BC00323405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F634D5C61F3F24BC00323405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F634D5C81F3F24BC00323405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F634D5C91F3F24BC00323405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F634D5CB1F3F24BC00323405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex map app.app/Alex map app";
+			};
+			name = Debug;
+		};
+		F634D5CC1F3F24BC00323405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex map app.app/Alex map app";
+			};
+			name = Release;
+		};
+		F634D5CE1F3F24BC00323405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alex map app";
+			};
+			name = Debug;
+		};
+		F634D5CF1F3F24BC00323405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MDX989Y6D8;
+				INFOPLIST_FILE = "Alex map appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Alex-map-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alex map app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F634D59A1F3F24BC00323405 /* Build configuration list for PBXProject "Alex map app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634D5C51F3F24BC00323405 /* Debug */,
+				F634D5C61F3F24BC00323405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F634D5C71F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634D5C81F3F24BC00323405 /* Debug */,
+				F634D5C91F3F24BC00323405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F634D5CA1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634D5CB1F3F24BC00323405 /* Debug */,
+				F634D5CC1F3F24BC00323405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F634D5CD1F3F24BC00323405 /* Build configuration list for PBXNativeTarget "Alex map appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634D5CE1F3F24BC00323405 /* Debug */,
+				F634D5CF1F3F24BC00323405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F634D5971F3F24BC00323405 /* Project object */;
+}
