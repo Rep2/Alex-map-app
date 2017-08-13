@@ -4,12 +4,11 @@ import SnapKit
 import RxSwift
 
 class MapViewController: UIViewController {
-
     lazy var mapView: MKMapView = {
         let map = MKMapView(frame: .zero)
         map.showsUserLocation = true
         map.delegate = self
-        map.isScrollEnabled = false
+        map.isExclusiveTouch = false
 
         return map
     }()

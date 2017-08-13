@@ -1,11 +1,10 @@
 import UIKit
 
 class RootPageViewController: UIPageViewController {
-
     let controllers = [
-        ColorViewController(color: .green),
+        ColorViewController(color: #colorLiteral(red: 0.2, green: 0.8196078431, blue: 1, alpha: 1)),
         MapViewController(),
-        ColorViewController(color: .blue)
+        ColorViewController(color: #colorLiteral(red: 0.2, green: 1, blue: 0.3176470588, alpha: 1))
     ]
 
     override func viewDidLoad() {
@@ -23,42 +22,25 @@ class RootPageViewController: UIPageViewController {
 }
 
 extension RootPageViewController: UIPageViewControllerDataSource {
-    func pageViewController(_ pageViewController: UIPageViewController,
-                            viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = controllers.index(of: viewController) else {
-            return nil
-        }
-
-        let previousIndex = viewControllerIndex - 1
-
-        guard previousIndex >= 0 else {
-            return nil
-        }
-
-        guard controllers.count > previousIndex else {
-            return nil
-        }
-
-        return controllers[previousIndex]
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        return neighbourViewController(of: viewController, offset: -1)
     }
 
-    func pageViewController(_ pageViewController: UIPageViewController,
-                            viewControllerAfter viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        return neighbourViewController(of: viewController, offset: 1)
+    }
+
+    func neighbourViewController(of viewController: UIViewController, offset: Int) -> UIViewController? {
         guard let viewControllerIndex = controllers.index(of: viewController) else {
             return nil
         }
 
-        let nextIndex = viewControllerIndex + 1
-        let orderedViewControllersCount = controllers.count
+        let neighbourViewControllerIndex = viewControllerIndex + offset
 
-        guard orderedViewControllersCount != nextIndex else {
+        guard  neighbourViewControllerIndex >= 0 && neighbourViewControllerIndex < controllers.count else {
             return nil
         }
 
-        guard orderedViewControllersCount > nextIndex else {
-            return nil
-        }
-
-        return controllers[nextIndex]
+        return controllers[neighbourViewControllerIndex]
     }
 }

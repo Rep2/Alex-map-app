@@ -25,7 +25,8 @@ platform :ios do
     crashlytics(
       api_token: "002d1e80e7bf3a300de583f69a92347342fc38a9",
       build_secret: "e3df1c13235f9dab0dc7accc866329608184f2134ce261febd9bf33b9940b592",
-      groups: "Rep"
+      groups: "Rep",
+      emails: "alex.ksikes@gmail.com"
    )
   end
 
