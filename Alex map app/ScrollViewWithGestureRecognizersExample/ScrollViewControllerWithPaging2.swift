@@ -1,6 +1,8 @@
 import UIKit
 
 class ScrollViewControllerWithPaging2: UIViewController, UIScrollViewDelegate {
+    static var sharedInstance: ScrollViewControllerWithPaging2?
+
     lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
         scrollView.isPagingEnabled = true
@@ -13,6 +15,8 @@ class ScrollViewControllerWithPaging2: UIViewController, UIScrollViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        ScrollViewControllerWithPaging2.sharedInstance = self
 
         self.view.addSubview(scrollView)
 
@@ -33,5 +37,9 @@ class ScrollViewControllerWithPaging2: UIViewController, UIScrollViewDelegate {
 
              self.scrollView.addSubview(subView)
         }
+    }
+
+    func scroll(offset: CGFloat) {
+        scrollView.setContentOffset(CGPoint(x: self.view.bounds.width + offset, y: 0), animated: false)
     }
 }

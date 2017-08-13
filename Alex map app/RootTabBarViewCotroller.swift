@@ -11,8 +11,8 @@ class RootTabBarViewCotroller: UITabBarController {
         scrollViewControllerWithPagingAndGestureRecognizers.tabBarItem.title = "2"
 
         viewControllers = [
-            scrollViewControllerWithPaging,
-            scrollViewControllerWithPagingAndGestureRecognizers
+            scrollViewControllerWithPagingAndGestureRecognizers,
+            scrollViewControllerWithPaging
         ]
     }
 }

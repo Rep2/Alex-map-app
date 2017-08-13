@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window?.rootViewController = RootTabBarViewCotroller(nibName: nil, bundle: nil)
 
-        //RootPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         window?.makeKeyAndVisible()
 
         return true

@@ -11,7 +11,6 @@
 		A3371F3586395477EDA2E304 /* Pods_Alex_map_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */; };
 		B7B0A91AF6BBB87EEA382359 /* Pods_Alex_map_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30982C76768D2654847DE9DA /* Pods_Alex_map_appTests.framework */; };
 		F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A21F3F24BC00323405 /* AppDelegate.swift */; };
-		F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* MapViewController.swift */; };
 		F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A91F3F24BC00323405 /* Assets.xcassets */; };
 		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
 		F6DC904E1F40F8460021B1A9 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC904B1F40F8460021B1A9 /* CustomScrollView.swift */; };
@@ -20,14 +19,15 @@
 		F6DC90561F40F8870021B1A9 /* MapViewWithGestureRecognizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90531F40F8870021B1A9 /* MapViewWithGestureRecognizers.swift */; };
 		F6DC90571F40F8870021B1A9 /* ScrollViewControllerWithPaging2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90541F40F8870021B1A9 /* ScrollViewControllerWithPaging2.swift */; };
 		F6DC90591F40F8DC0021B1A9 /* RootTabBarViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90581F40F8DC0021B1A9 /* RootTabBarViewCotroller.swift */; };
+		F6DC905E1F41004C0021B1A9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC905C1F41004C0021B1A9 /* MapViewController.swift */; };
+		F6DC905F1F41004C0021B1A9 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC905D1F41004C0021B1A9 /* RootPageViewController.swift */; };
+		F6DC90611F41005F0021B1A9 /* ColourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90601F41005F0021B1A9 /* ColourViewController.swift */; };
 		F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; };
 		F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */; };
 		F6ED00E81F3F5ED000377D62 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; };
 		F6ED00E91F3F5ED000377D62 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E71F3F5ED000377D62 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00EC1F3F70D700377D62 /* Error.swift */; };
-		F6ED00EF1F3F7A6900377D62 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */; };
-		F6ED00F11F3F7D2E00377D62 /* ColourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,6 @@
 		EA335C23B597F86A26036186 /* Pods_Alex_map_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alex_map_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D59F1F3F24BC00323405 /* Alex map app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex map app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5A21F3F24BC00323405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F634D5A41F3F24BC00323405 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F634D5A91F3F24BC00323405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F634D5AC1F3F24BC00323405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F634D5AE1F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,12 +90,13 @@
 		F6DC90531F40F8870021B1A9 /* MapViewWithGestureRecognizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewWithGestureRecognizers.swift; sourceTree = "<group>"; };
 		F6DC90541F40F8870021B1A9 /* ScrollViewControllerWithPaging2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewControllerWithPaging2.swift; sourceTree = "<group>"; };
 		F6DC90581F40F8DC0021B1A9 /* RootTabBarViewCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarViewCotroller.swift; sourceTree = "<group>"; };
+		F6DC905C1F41004C0021B1A9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F6DC905D1F41004C0021B1A9 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		F6DC90601F41005F0021B1A9 /* ColourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourViewController.swift; sourceTree = "<group>"; };
 		F6ED00E11F3F59EB00377D62 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F6ED00E71F3F5ED000377D62 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F6ED00EC1F3F70D700377D62 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
-		F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,17 +182,15 @@
 		F634D5A11F3F24BC00323405 /* Alex map app */ = {
 			isa = PBXGroup;
 			children = (
+				F6DC905B1F41004C0021B1A9 /* PageViewExample */,
 				F6DC90441F40F5BF0021B1A9 /* ScrollViewExample */,
 				F6DC90511F40F8870021B1A9 /* ScrollViewWithGestureRecognizersExample */,
 				F634D5A21F3F24BC00323405 /* AppDelegate.swift */,
-				F634D5A41F3F24BC00323405 /* MapViewController.swift */,
-				F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */,
 				F634D5A91F3F24BC00323405 /* Assets.xcassets */,
 				F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */,
 				F634D5AE1F3F24BC00323405 /* Info.plist */,
 				F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */,
 				F6ED00EC1F3F70D700377D62 /* Error.swift */,
-				F6ED00F01F3F7D2E00377D62 /* ColourViewController.swift */,
 				F6DC90581F40F8DC0021B1A9 /* RootTabBarViewCotroller.swift */,
 			);
 			path = "Alex map app";
@@ -231,6 +229,16 @@
 				F6DC90541F40F8870021B1A9 /* ScrollViewControllerWithPaging2.swift */,
 			);
 			path = ScrollViewWithGestureRecognizersExample;
+			sourceTree = "<group>";
+		};
+		F6DC905B1F41004C0021B1A9 /* PageViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				F6DC90601F41005F0021B1A9 /* ColourViewController.swift */,
+				F6DC905C1F41004C0021B1A9 /* MapViewController.swift */,
+				F6DC905D1F41004C0021B1A9 /* RootPageViewController.swift */,
+			);
+			path = PageViewExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -576,13 +584,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6ED00F11F3F7D2E00377D62 /* ColourViewController.swift in Sources */,
+				F6DC905E1F41004C0021B1A9 /* MapViewController.swift in Sources */,
+				F6DC90611F41005F0021B1A9 /* ColourViewController.swift in Sources */,
 				F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */,
+				F6DC905F1F41004C0021B1A9 /* RootPageViewController.swift in Sources */,
 				F6DC904F1F40F8460021B1A9 /* MapView.swift in Sources */,
 				F6DC90561F40F8870021B1A9 /* MapViewWithGestureRecognizers.swift in Sources */,
-				F6ED00EF1F3F7A6900377D62 /* RootPageViewController.swift in Sources */,
 				F6DC904E1F40F8460021B1A9 /* CustomScrollView.swift in Sources */,
-				F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */,
 				F6DC90501F40F8460021B1A9 /* ScrollViewControllerWithPaging.swift in Sources */,
 				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
 				F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */,
