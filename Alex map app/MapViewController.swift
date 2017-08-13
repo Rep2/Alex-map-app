@@ -8,9 +8,26 @@ class MapViewController: UIViewController {
         let map = MKMapView(frame: .zero)
         map.showsUserLocation = true
         map.delegate = self
-        map.isExclusiveTouch = false
+
+        map.addGestureRecognizer(self.rightPanGestureRecognizer)
+        map.addGestureRecognizer(self.leftPanGestureRecognizer)
 
         return map
+    }()
+
+    lazy var rightPanGestureRecognizer: UISwipeGestureRecognizer = {
+        let gestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(MapViewController.didSwipeRight))
+        gestureRecognizer.delegate = self
+
+        return gestureRecognizer
+    }()
+
+    lazy var leftPanGestureRecognizer: UISwipeGestureRecognizer = {
+        let gestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(MapViewController.didSwipeLeft))
+        gestureRecognizer.delegate = self
+        gestureRecognizer.direction = UISwipeGestureRecognizerDirection.left
+
+        return gestureRecognizer
     }()
 
     var didSetLocation = false
@@ -22,6 +39,14 @@ class MapViewController: UIViewController {
 
         return view
     }()
+
+    func didSwipeRight() {
+        RootPageViewController.sharedInstance?.didSwipeRight()
+    }
+
+    func didSwipeLeft() {
+        RootPageViewController.sharedInstance?.didSwipeLeft()
+    }
 
     let disposeBag = DisposeBag()
 
@@ -44,11 +69,7 @@ class MapViewController: UIViewController {
     }
 
     func setupSubvews() {
-        view.addSubview(mapView)
-
-        mapView.snp.makeConstraints { make in
-            make.edges.equalTo(self.view)
-        }
+        view = mapView
     }
 
     func startReceivingLocationChanges() {
@@ -101,5 +122,11 @@ extension MapViewController: MKMapViewDelegate {
         if let userLocationView = views.filter({ $0.annotation is MKUserLocation }).last {
             userLocationView.insertSubview(headingView, at: 0)
         }
+    }
+}
+
+extension MapViewController: UIGestureRecognizerDelegate {
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
     }
 }

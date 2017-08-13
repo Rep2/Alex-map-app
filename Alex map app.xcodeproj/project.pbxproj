@@ -14,6 +14,9 @@
 		F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634D5A41F3F24BC00323405 /* MapViewController.swift */; };
 		F634D5AA1F3F24BC00323405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634D5A91F3F24BC00323405 /* Assets.xcassets */; };
 		F634D5AD1F3F24BC00323405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F634D5AB1F3F24BC00323405 /* LaunchScreen.storyboard */; };
+		F6DC90471F40F5F30021B1A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90451F40F5F30021B1A9 /* MapView.swift */; };
+		F6DC90481F40F5F30021B1A9 /* ScrollPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90461F40F5F30021B1A9 /* ScrollPageViewController.swift */; };
+		F6DC904A1F40F7890021B1A9 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC90491F40F7890021B1A9 /* CustomScrollView.swift */; };
 		F6ED00E21F3F59EB00377D62 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; };
 		F6ED00E31F3F59EB00377D62 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED00E11F3F59EB00377D62 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */; };
@@ -79,6 +82,9 @@
 		F634D5B91F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F634D5BE1F3F24BC00323405 /* Alex map appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex map appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634D5C41F3F24BC00323405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DC90451F40F5F30021B1A9 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ScrollPageExample/MapView.swift; sourceTree = "<group>"; };
+		F6DC90461F40F5F30021B1A9 /* ScrollPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollPageViewController.swift; path = ScrollPageExample/ScrollPageViewController.swift; sourceTree = "<group>"; };
+		F6DC90491F40F7890021B1A9 /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 		F6ED00E11F3F59EB00377D62 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		F6ED00E51F3F5CAB00377D62 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F6ED00E71F3F5ED000377D62 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -170,6 +176,7 @@
 		F634D5A11F3F24BC00323405 /* Alex map app */ = {
 			isa = PBXGroup;
 			children = (
+				F6DC90441F40F5BF0021B1A9 /* ScrollPageExample */,
 				F634D5A21F3F24BC00323405 /* AppDelegate.swift */,
 				F634D5A41F3F24BC00323405 /* MapViewController.swift */,
 				F6ED00EE1F3F7A6900377D62 /* RootPageViewController.swift */,
@@ -197,6 +204,16 @@
 				F634D5C41F3F24BC00323405 /* Info.plist */,
 			);
 			path = "Alex map appUITests";
+			sourceTree = "<group>";
+		};
+		F6DC90441F40F5BF0021B1A9 /* ScrollPageExample */ = {
+			isa = PBXGroup;
+			children = (
+				F6DC90451F40F5F30021B1A9 /* MapView.swift */,
+				F6DC90461F40F5F30021B1A9 /* ScrollPageViewController.swift */,
+				F6DC90491F40F7890021B1A9 /* CustomScrollView.swift */,
+			);
+			name = ScrollPageExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,11 +559,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DC90481F40F5F30021B1A9 /* ScrollPageViewController.swift in Sources */,
 				F6ED00F11F3F7D2E00377D62 /* ColourViewController.swift in Sources */,
 				F6ED00ED1F3F70D700377D62 /* Error.swift in Sources */,
 				F6ED00EF1F3F7A6900377D62 /* RootPageViewController.swift in Sources */,
 				F634D5A51F3F24BC00323405 /* MapViewController.swift in Sources */,
+				F6DC904A1F40F7890021B1A9 /* CustomScrollView.swift in Sources */,
 				F634D5A31F3F24BC00323405 /* AppDelegate.swift in Sources */,
+				F6DC90471F40F5F30021B1A9 /* MapView.swift in Sources */,
 				F6ED00E61F3F5CAB00377D62 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
