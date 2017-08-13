@@ -1,3 +1,2 @@
-github "emalyak/EMPageViewController"
 github "ReactiveX/RxSwift" ~> 3.0
 github "SnapKit/SnapKit" ~> 3.2.0

@@ -1,8 +1,8 @@
 import UIKit
 
-class ScrollPageViewController: UIViewController, UIScrollViewDelegate {
-    lazy var scrollView: CustomScrollView = {
-        let scrollView = CustomScrollView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
+class ScrollViewControllerWithPaging2: UIViewController, UIScrollViewDelegate {
+    lazy var scrollView: UIScrollView = {
+        let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
         scrollView.isPagingEnabled = true
         scrollView.contentSize = CGSize(width: scrollView.frame.size.width * 3, height: scrollView.frame.size.height)
         scrollView.setContentOffset(CGPoint(x: self.view.bounds.width, y: 0), animated: false)
@@ -25,7 +25,7 @@ class ScrollPageViewController: UIViewController, UIScrollViewDelegate {
                 subView = UIView(frame: frame)
                 subView.backgroundColor = #colorLiteral(red: 0.2, green: 0.8196078431, blue: 1, alpha: 1)
             } else if index == 1 {
-                subView = MapView(frame: frame)
+                subView = MapViewWithGestureRecognizers(frame: frame)
             } else {
                 subView = UIView(frame: frame)
                 subView.backgroundColor = #colorLiteral(red: 0.2, green: 1, blue: 0.3176470588, alpha: 1)
