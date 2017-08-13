@@ -1,7 +1,7 @@
 import UIKit
 
-class RootPageViewController: UIPageViewController {
-    static var sharedInstance: RootPageViewController?
+class PageViewController: UIPageViewController {
+    static var sharedInstance: PageViewController?
 
     lazy var controllers: [UIViewController] = {
         return [
@@ -14,7 +14,7 @@ class RootPageViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        RootPageViewController.sharedInstance = self
+        PageViewController.sharedInstance = self
 
         dataSource = self
 
@@ -45,7 +45,7 @@ class RootPageViewController: UIPageViewController {
     }
 }
 
-extension RootPageViewController: UIPageViewControllerDataSource {
+extension PageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         return neighbourViewController(of: viewController, offset: -1)
     }

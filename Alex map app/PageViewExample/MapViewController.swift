@@ -41,11 +41,11 @@ class MapViewController: UIViewController {
     }()
 
     func didSwipeRight() {
-        RootPageViewController.sharedInstance?.didSwipeRight()
+        PageViewController.sharedInstance?.didSwipeRight()
     }
 
     func didSwipeLeft() {
-        RootPageViewController.sharedInstance?.didSwipeLeft()
+        PageViewController.sharedInstance?.didSwipeLeft()
     }
 
     let disposeBag = DisposeBag()
